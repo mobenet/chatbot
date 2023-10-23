@@ -1,0 +1,28 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Provide hours information
+  steps: 
+  - intent: ask_hours
+  - action: utter_answer_hours
+
+- rule: Provide tickets information
+  steps: 
+  - intent: ask_tickets
+  - action: utter_answer_tickets
+
+- rule: Provide artworks information
+  steps: 
+  - intent: ask_artworks
+  - action: utter_answer_artworks

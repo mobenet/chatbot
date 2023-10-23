@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info
+*.dist-info
+*.eggs
+
+# Rasa
+.rasa/cache/
+
+# Logs and databases
+*.log
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Directories
+venv/
+env/
+.vscode/
+.idea/
+
+# Rasa default directories
+/models
+/data/nlu.md
+/data/stories.md
+
+# End-of-line files
+*.swp
+*~
+
+# Results and testing
+results/
+tests/results
+
+# Virtual environments
+*.venv/

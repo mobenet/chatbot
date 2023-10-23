@@ -1,0 +1,196 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - ei
+    - ep
+    - hola
+    - holi
+    - hello
+    - hol
+    - bon dia
+    - bona tarda
+    - ei, que tal
+    - que tal
+    - som-hi
+    - ei company
+    - bondia
+    - bonatarda
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - adeu
+    - bye
+    - deu
+    - bona nit
+    - fins despres
+    - fins una altra
+    - arreveure
+    - good by
+    - cee you later
+    - good night
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - si
+    - s
+    - clar
+    - d'acord
+    - dacord
+    - val
+    - vale
+    - ok
+    - correcte
+    - oki
+    - okey
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - mai
+    - no crec
+    - ho dubto
+    - no massa
+    - no molt
+    - no gaire
+    - gens
+    - res
+    - impossible
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - be
+    - fenomenal
+    - molt be
+    - super be
+    - perfecte
+    - increible
+    - estupendo
+    - em sento molt be
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - estic trist
+    - trist
+    - estic trista
+    - trista
+    - estic molt trista
+    - estic molt trist
+    - no gaire be
+    - no molt be
+    - no massa be
+    - el meu dia ha estat horrible
+    - mal dia
+    - no em trobo be 
+    - no em trobo molt be
+    - mal 
+    - malament
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - ets un robot?
+    - robot?
+    - huma?
+    - que ets?
+    - estic parlant amb un huma?
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_hours
+  examples: |
+    - obren
+    - portes
+    - obriu
+    - horari
+    - obertes
+    - calendari
+    - A quina hora obren?
+    - Quin es l'horari del museu?
+    - Fins quina hora està obert el museu?
+    - Quan tanquen?
+
+- intent: ask_tickets
+  examples: |
+    - preu
+    - tarifa
+    - precio
+    - entrada
+    - gratis
+    - gratuita
+    - preus
+    - tickets
+    - tiquets
+    - Quant costa l'entrada?
+    - Tenen descomptes per estudiants?
+    - Hi ha alguna tarifa reduïda?
+
+- intent: ask_artworks
+  examples: |
+    - obres
+    - peces
+    - cataleg
+    - art
+    - Quines obres trobaré al museu?
+    - On puc trobar les pintures de
+    - ¿Tienen esculturas de Rodin?
